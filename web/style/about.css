@@ -1,0 +1,78 @@
+/*Folha de Estilo para a pagina sobre*/ 
+
+body {
+  overflow: hidden;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar bg-body-tertiary{
+        text-align: center;
+        padding: 10px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-item {
+        margin-right: 15px;
+
+    }
+
+    .nav-link {
+        color: whitesmoke;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    .nav-link:hover {
+        color: deepskyblue;
+    }
+
+    .navbar-brand:hover{
+        color: deepskyblue;
+    }
+
+    .logo{
+        width: 50px;
+        height: auto;
+    }
+
+.container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+        
+    }
+    
+    /* Estilos para telas menores */
+        @media screen and (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            .box {
+                margin-bottom: 10px;
+            }
+        }
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+

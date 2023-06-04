@@ -1,3 +1,4 @@
+@import "../style/navbar.css";
 /*Folha de Estilo para a pagina de contatos*/
 body {
   background-color: #f2f2f2;
@@ -12,6 +13,44 @@ body {
         padding: 20px;
         
     }
+    
+    .navbar bg-body-tertiary{
+        text-align: center;
+        padding: 10px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-item {
+        margin-right: 15px;
+
+    }
+
+    .nav-link {
+        color: whitesmoke;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    .nav-link:hover {
+        color: deepskyblue;
+    }
+
+    .navbar-brand:hover{
+        color: deepskyblue;
+    }
+
+    .logo{
+        width: 50px;
+        height: auto;
+    }
+
     
     /* Estilos para telas menores */
         @media screen and (max-width: 768px) {
@@ -49,24 +88,14 @@ body {
         border-radius: 4px;
         color: deepskyblue;
     }
-
-    button[type="submit"] {
-        background-color: deepskyblue;
-        color: #fff;
-        padding: 10px 20px;
-        padding-bottom: 5px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-    }
-
+    
     button[type="submit"]:hover {
-        background-color: deepskyblue;
+        background-color: #393939;
         
     }    
     
     main{
-        height: 25.9vh;
+        height: 26.5vh;
     }
 
 

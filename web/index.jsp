@@ -14,8 +14,8 @@
 
     <%@include file="WEB-INF/jspf/navbar.jspf" %>
     <header class="header">
-        <h1>Welcome to My Website</h1>
-        <p>A place where you can find amazing things!</p>
+        <h1>Bem-vindos ao IndieTrail</h1>
+        <p>O Melhor Lugar para encontrar aquele jogo Indie!</p>
     </header>
     <section class="features">
         <div class="feature">
