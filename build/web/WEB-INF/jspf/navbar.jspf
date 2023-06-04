@@ -1,0 +1,82 @@
+<%@ page pageEncoding="UTF-8" %>
+<!-- navbar.jspf -->
+<nav class="navbar bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.jsp">
+            <img class="logo" src="images/logo.png;">
+        </a>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar Produtos" aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit">Buscar</button>
+        </form>
+
+        <ul class="nav justify-content-center"">
+            <li class="nav-item">
+                <a class="nav-link" href="index.jsp">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Login <i class="bi bi-door-open"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contato.jsp">Contato</a>
+            </li>
+        </ul>
+
+</nav>
+
+
+<style>
+    .navbar bg-body-tertiary{
+        text-align: center;
+        padding: 10px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-item {
+        margin-right: 15px;
+
+    }
+
+    .nav-link {
+        color: whitesmoke;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    .nav-link:hover {
+        color: deepskyblue;
+    }
+
+    .navbar-brand:hover{
+        color: deepskyblue;
+    }
+
+    .logo{
+        width: 50px;
+        height: auto;
+    }
+    
+    button[type="submit"] {
+        background-color: deepskyblue;
+        color: #fff;
+        padding: 10px 20px;
+        padding-bottom: 5px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    d-flex .placeholder{
+        color: deepskyblue;
+    }
+</style>
