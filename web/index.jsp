@@ -10,28 +10,128 @@
     <link rel="stylesheet" type="text/css" href="style/main.css">
 </head>
 <body>
-    
-
     <%@include file="WEB-INF/jspf/navbar.jspf" %>
     <header class="header">
-        <h1>Bem-vindos ao IndieTrail</h1>
-        <p>O Melhor Lugar para encontrar aquele jogo Indie!</p>
+        <h1>Bem-vindo à IndieTrail,</h1>
+        <p>Onde a paixão pelos jogos indie encontra seu caminho!</p>
     </header>
-    <section class="features">
-        <div class="feature">
-            <img src="images/feature1.jpg" alt="Feature 1">
-            <h2>Feature 1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    
+    <section class="games">
+        <div class="game">
+            <img src="images/stardew-valley-indie-cke.jpg" alt="stardew-valley">
+            <h2>Stardew-Valley</h2>
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5" title="5 stars"></label>
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4" title="4 stars"></label>
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3" title="3 stars"></label>
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2" title="2 stars"></label>
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1" title="1 star"></label>
+            </div>
+            <p>Lançamento: 2016</p>
+            <p>Plataformas: PC, Xbox One, PS4, Switch e Mobile</p>
+            <button class="btn btn-outline-primary" type="submit">Comprar</button>
         </div>
-        <div class="feature">
-            <img src="images/feature2.jpg" alt="Feature 2">
-            <h2>Feature 2</h2>
-            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+         <div class="game">
+            <img src="images/stardew-valley-indie-cke.jpg" alt="stardew-valley">
+            <h2>Stardew-Valley</h2>
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5" title="5 stars"></label>
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4" title="4 stars"></label>
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3" title="3 stars"></label>
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2" title="2 stars"></label>
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1" title="1 star"></label>
+            </div>
+            <p>Lançamento: 2016</p>
+            <p>Plataformas: PC, Xbox One, PS4, Switch e Mobile</p>
+             <button class="btn btn-outline-primary" type="submit">Comprar</button>
         </div>
-        <div class="feature">
-            <img src="images/feature3.jpg" alt="Feature 3">
-            <h2>Feature 3</h2>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+         <div class="game">
+            <img src="images/stardew-valley-indie-cke.jpg" alt="stardew-valley">
+            <h2>Stardew-Valley</h2>
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5" title="5 stars"></label>
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4" title="4 stars"></label>
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3" title="3 stars"></label>
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2" title="2 stars"></label>
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1" title="1 star"></label>
+            </div>
+            <p>Lançamento: 2016</p>
+            <p>Plataformas: PC, Xbox One, PS4, Switch e Mobile</p>
+             <button class="btn btn-outline-primary" type="submit">Comprar</button>
+        </div>
+    </section>
+    <section class="games">
+        <div class="game">
+            <img src="images/stardew-valley-indie-cke.jpg" alt="stardew-valley">
+            <h2>Stardew-Valley</h2>
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5" title="5 stars"></label>
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4" title="4 stars"></label>
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3" title="3 stars"></label>
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2" title="2 stars"></label>
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1" title="1 star"></label>
+            </div>
+            <p>Lançamento: 2016</p>
+            <p>Plataformas: PC, Xbox One, PS4, Switch e Mobile</p>
+            <button class="btn btn-outline-primary" type="submit">Comprar</button>
+        </div>
+         <div class="game">
+            <img src="images/stardew-valley-indie-cke.jpg" alt="stardew-valley">
+            <h2>Stardew-Valley</h2>
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5" title="5 stars"></label>
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4" title="4 stars"></label>
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3" title="3 stars"></label>
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2" title="2 stars"></label>
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1" title="1 star"></label>
+            </div>
+            <p>Lançamento: 2016</p>
+            <p>Plataformas: PC, Xbox One, PS4, Switch e Mobile</p>
+             <button class="btn btn-outline-primary" type="submit">Comprar</button>
+        </div>
+         <div class="game">
+            <img src="images/stardew-valley-indie-cke.jpg" alt="stardew-valley">
+            <h2>Stardew-Valley</h2>
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5" title="5 stars"></label>
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4" title="4 stars"></label>
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3" title="3 stars"></label>
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2" title="2 stars"></label>
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1" title="1 star"></label>
+            </div>
+            <p>Lançamento: 2016</p>
+            <p>Plataformas: PC, Xbox One, PS4, Switch e Mobile</p>
+             <button class="btn btn-outline-primary" type="submit">Comprar</button>
         </div>
     </section>
  <footer>

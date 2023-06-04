@@ -11,7 +11,7 @@
         <link rel="stylesheet" type="text/css" href="style/about.css">
     </head>
     <body>
-        
+
         <nav class="navbar bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.jsp">
@@ -31,13 +31,18 @@
 
         </nav>
     <html>
-        
+
         <div class="content">
             <div class="text-center">
-                <img src="images/logo.png" class="rounded" alt="logo">
-            </div>>
-            <h1>Sobre</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Phasellus venenatis velit in leo iaculis sollicitudin. Curabitur non lacus sit amet risus dignissim faucibus. Nam ac sem et purus tempus cursus. Sed nec vestibulum enim. Mauris facilisis arcu ut ligula lobortis fringilla. In fermentum tortor non justo rutrum euismod. Morbi quis mauris est. Vivamus eu odio id tellus efficitur euismod. Nam sit amet neque at ligula suscipit lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc congue orci vel mauris consequat consequat.</p>
+                <figure class="figure">
+                    <img src="images/logo.png" class="figure-img img-fluid rounded" alt="...">
+                </figure>
+            </div>
+            <h1>A história da IndieTrail</h1>
+            <p>A IndieTrail é uma empresa fictícia apaixonada por jogos indie e dedicada a promover e apoiar desenvolvedores independentes de todo o mundo.</p>
+            <p>Nossa história começa com um grupo de entusiastas de jogos que acreditam no poder da criatividade e da inovação encontrados nos jogos independentes.
+               Fascinados pela diversidade de experiências e narrativas únicas que os jogos indie oferecem, decidimos criar a IndieTrail como uma plataforma para destacar e celebrar o trabalho de desenvolvedores independentes talentosos e visionários.
+            </p>
         </div>
         <%@include file="WEB-INF/jspf/footer.jspf" %>
     </body>

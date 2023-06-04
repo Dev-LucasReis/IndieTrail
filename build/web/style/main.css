@@ -28,6 +28,8 @@ body {
 }
 
 .header h1 {
+    background-color: #3366cc;
+    font-family: Arial, sans-serif;
     font-size: 36px;
     margin-bottom: 10px;
 }
@@ -37,14 +39,38 @@ body {
     margin-bottom: 30px;
 }
 
-.features {
+.rating {
+  display: inline-block;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  float: right;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.rating label:before {
+  content: '\2605';
+  font-size: 20px;
+}
+
+.rating input:checked ~ label {
+  color: #ffcc00;
+}
+
+
+.games {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
 }
 
-.feature {
+.game {
     width: 300px;
     padding: 20px;
     margin: 20px;
@@ -53,18 +79,18 @@ body {
     text-align: center;
 }
 
-.feature img {
+.game img {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
 }
 
-.feature h2 {
+.game h2 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-.feature p {
+.game p {
     font-size: 16px;
     color: #666;
 }

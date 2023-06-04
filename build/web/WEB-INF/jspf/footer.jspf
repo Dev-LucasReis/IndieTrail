@@ -6,7 +6,7 @@
         <a href="#" class="copy">&copy; 2023 IndieTrail. All rights reserved.</a>
         <ul class="social-icons">
             <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-            <li><a href="#"><i class="bi bi-github"></i></a></li>
+            <li><a href="https://github.com/Dev-LucasReis/indieTrail"><i class="bi bi-github"></i></a></li>
             <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
         </ul>
     </div>
