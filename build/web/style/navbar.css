@@ -45,7 +45,21 @@
         cursor: pointer;
     }
     
+    button[type="submit"]:hover {
+        background-color: #393939;
+        
+    }
+    
     d-flex .placeholder{
         color: deepskyblue;
     }
 
+  /* Estilos para telas menores */
+        @media screen and (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            .box {
+                margin-bottom: 10px;
+            }
+        }

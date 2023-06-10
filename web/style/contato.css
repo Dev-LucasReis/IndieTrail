@@ -1,102 +1,36 @@
-@import "../style/navbar.css";
 /*Folha de Estilo para a pagina de contatos*/
-body {
-  background-color: #f2f2f2;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}    
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 
-.container {
-        max-width: 960px;
-        margin: 0 auto;
-        padding: 20px;
-        
-    }
-    
-    .navbar bg-body-tertiary{
-        text-align: center;
-        padding: 10px;
-    }
+}
 
-    .navbar-nav {
-        display: flex;
-        justify-content: space-between;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
+.form-group {
+    margin-bottom: 20px;
+}
 
-    .nav-item {
-        margin-right: 15px;
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
 
-    }
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: deepskyblue;
+}
 
-    .nav-link {
-        color: whitesmoke;
-        text-decoration: none;
-        transition: color 0.3s;
-    }
-
-    .nav-link:hover {
-        color: deepskyblue;
-    }
-
-    .navbar-brand:hover{
-        color: deepskyblue;
-    }
-
-    .logo{
-        width: 50px;
-        height: auto;
-    }
-
-    
-    /* Estilos para telas menores */
-        @media screen and (max-width: 768px) {
-            .container {
-                padding: 10px;
-            }
-            .box {
-                margin-bottom: 10px;
-            }
-        }
-
-    h1 {
-        padding-top: 15px;
-        text-align: center;
-        margin-bottom: 20px;
-        
-    }
-
-    .form-group {
-        margin-bottom: 20px;
-    }
-
-    label {
-        display: block;
-        font-weight: bold;
-        margin-bottom: 5px;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    textarea {
-        width: 100%;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        color: deepskyblue;
-    }
-    
-    button[type="submit"]:hover {
-        background-color: #393939;
-        
-    }    
-    
-    main{
-        height: 26.5vh;
-    }
-
-
+main{
+    height: 26.5vh;
+}
 

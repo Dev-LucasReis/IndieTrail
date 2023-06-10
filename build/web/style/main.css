@@ -91,13 +91,8 @@ body {
 }
 
 .game p {
-    font-size: 16px;
     color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
-
-
-
-
-
-
-
