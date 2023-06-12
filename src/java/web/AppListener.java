@@ -1,5 +1,17 @@
 package web;
-
+import java.io.IOException;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import java.io.BufferedReader;
+import model.User;
+import model.GamesIndie;
+import org.json.JSONArray;
+import org.json.JSONObject;
+import java.time.Duration;
+import java.time.Instant;
 import jakarta.servlet.ServletContextEvent;
 import jakarta.servlet.ServletContextListener;
 import jakarta.servlet.annotation.WebListener;
@@ -7,13 +19,12 @@ import java.util.Date;
 import java.sql.*;
 import java.security.*;
 import java.math.*;
-import model.User;
-import model.VehicleStay;
+
 
 @WebListener
 public class AppListener implements ServletContextListener {
     public static final String CLASS_NAME = "org.sqlite.JDBC";
-    public static final String URL = "jdbc:sqlite:parkapp.db";
+    public static final String URL = "jdbc:sqlite:gamesindieapp.db";
     public static String initializeLog = "";
     public static Exception exception = null;
 
@@ -27,27 +38,26 @@ public class AppListener implements ServletContextListener {
         try {
             Connection c = AppListener.getConnection();
             Statement s = c.createStatement();
-            //s.execute("DELETE FROM users");
             initializeLog += new Date() + ": Initializing database creation; ";
-            //USERS
+            // USERS
             initializeLog += "Creating Users table if not exists...";
             s.execute(User.getCreateStatement());
             initializeLog += "done; ";
-            if(User.getUsers().isEmpty()){
+            if (User.getUsers().isEmpty()) {
                 initializeLog += "Adding default users...";
                 User.insertUser("admin", "Administrador", "ADMIN", "1234");
                 initializeLog += "Admin added; ";
                 User.insertUser("fulano", "Fulano da Silva", "USER", "1234");
                 initializeLog += "Fulano added; ";
             }
-            //VEHICLE
-            initializeLog += "Creating VehicleStay table if not exists...";
-            s.execute(VehicleStay.getCreateStatement());
+            // GAMES
+            initializeLog += "Creating GamesIndie table if not exists...";
+            s.execute(GamesIndie.getCreateStatement());
             initializeLog += "done.";
             s.close();
             c.close();
         } catch (Exception ex) {
-            initializeLog += "Erro: " + ex.getMessage();
+            initializeLog += "Error: " + ex.getMessage();
         }
     }
 
@@ -62,3 +72,4 @@ public class AppListener implements ServletContextListener {
         return DriverManager.getConnection(URL);
     }
 }
+

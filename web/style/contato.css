@@ -1,5 +1,6 @@
 /*Folha de Estilo para a pagina de contatos*/
 h1 {
+    padding-top: 15px;
     font-size: 24px;
     font-weight: bold;
     color: #333333;
@@ -31,6 +32,6 @@ textarea {
 }
 
 main{
-    height: 26.5vh;
+    height: 27.3vh;
 }
 

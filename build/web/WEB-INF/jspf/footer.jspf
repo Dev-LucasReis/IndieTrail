@@ -1,6 +1,6 @@
 <%@ page pageEncoding="UTF-8" %>
-<link rel="stylesheet" type="text/css" href="style/footer.css">
-<!-- footer.jsp -->
+<link rel="stylesheet" type="text/css" href="style/rodape.css"/>
+<!-- footer.jspf -->
 <footer class="footer">
     <div class="container">
         <a href="index.jsp" class="copy">&copy; 2023 IndieTrail. All rights reserved.</a>

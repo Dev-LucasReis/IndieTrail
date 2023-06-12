@@ -1,4 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="java.util.ArrayList"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -134,8 +135,6 @@
                 <button class="btn btn-outline-primary" type="submit">Comprar</button>
             </div>
         </section>
-        <footer>
-            <%@include file="WEB-INF/jspf/footer.jspf" %>
-        </footer>
+            <%@include file="WEB-INF/jspf/footer.jspf" %>      
     </body>   
 </html>

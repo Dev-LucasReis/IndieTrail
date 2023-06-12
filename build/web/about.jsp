@@ -24,10 +24,7 @@
         <p> A IndieTrail é uma empresa fictícia apaixonada por jogos indie e dedicada a promover e apoiar desenvolvedores independentes de todo o mundo.</p>
         <p> Nossa história começa com um grupo de entusiastas de jogos que acreditam no poder da criatividade e da inovação encontrados nos jogos independentes.</p>
         <p> Fascinados pela diversidade de experiências e narrativas únicas que os jogos indie oferecem. </p>
-        <p> decidimos criar a IndieTrail como uma plataforma para destacar e celebrar o trabalho de desenvolvedores independentes talentosos e visionários.</p>
-
-
-        
-        <%@include file="WEB-INF/jspf/footer.jspf" %>
+        <p> decidimos criar a IndieTrail como uma plataforma para destacar e celebrar o trabalho de desenvolvedores independentes talentosos e visionários.</p>  
     </body>
+    <%@include file="WEB-INF/jspf/footer.jspf" %>
 </html>

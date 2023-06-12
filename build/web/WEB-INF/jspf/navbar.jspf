@@ -9,9 +9,13 @@
         <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Pesquisar Produtos" aria-label="Search">
             <button class="btn btn-outline-primary" type="submit">Buscar</button>
+            
         </form>
 
-        <ul class="nav justify-content-center"">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-cart4"></i></a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link" href="index.jsp">Home</a>
             </li>

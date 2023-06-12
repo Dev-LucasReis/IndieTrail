@@ -12,6 +12,7 @@
 
     <body>
         <%@include file="WEB-INF/jspf/navbar.jspf" %>
+        <br>
         <div class="container">
             <h1>Fale Conosco</h1>
             <form>
@@ -37,8 +38,5 @@
         </script>
     </body>
     <main></main>
-    <footer>
         <%@include file="WEB-INF/jspf/footer.jspf" %>
-    </footer>
-
 </html>

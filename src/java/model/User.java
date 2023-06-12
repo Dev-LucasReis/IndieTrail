@@ -5,10 +5,6 @@ import java.sql.*;
 import java.util.ArrayList;
 import web.AppListener;
 
-/**
- *
- * @author rlarg
- */
 public class User {
 
     private long rowId;
@@ -17,14 +13,15 @@ public class User {
     private String role;
     private String passwordHash;
 
-    public static String getCreateStatement() {
-        return "CREATE TABLE IF NOT EXISTS users("
-                + "login VARCHAR(50) UNIQUE NOT NULL,"
-                + "name VARCHAR(200) NOT NULL,"
-                + "role VARCHAR(20) NOT NULL,"
-                + "password_hash VARCHAR NOT NULL"
-                + ")";
-    }
+   public static String getCreateStatement() {
+    return "CREATE TABLE IF NOT EXISTS users("
+            + "login VARCHAR(50) UNIQUE NOT NULL,"
+            + "name VARCHAR(200) NOT NULL,"
+            + "role VARCHAR(20) NOT NULL,"
+            + "password_hash VARCHAR(50) NOT NULL"
+            + ")";
+}
+
 
     public static ArrayList<User> getUsers() throws Exception{
         ArrayList<User> list = new ArrayList<>();
